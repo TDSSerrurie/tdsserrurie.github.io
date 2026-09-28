@@ -69,6 +69,7 @@ p { margin: 0 0 1em; }
 .nav a:not(.btn):hover::after { transform: scaleX(1); }
 .nav .btn { font-size: 1.05rem; padding: .55em 1.1em; }
 @media (max-width: 900px) { .nav a:not(.btn) { display: none; } }
+@media (max-width: 600px) { .brand b { font-size: 1.15rem; } }
 @media (max-width: 440px) { .brand small { display: none; } .nav .btn .label { display: none; } .nav .btn { padding: .6em .8em; } }
 
 /* ---------- Hero ---------- */
