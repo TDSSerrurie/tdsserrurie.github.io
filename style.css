@@ -238,6 +238,8 @@ section { padding: 120px 0; position: relative; }
 .phone:hover { color: var(--spark); }
 .contact-actions { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; }
 .contact .meta { margin-top: 34px; color: var(--muted); }
+.contact .review { margin-top: 10px; font-size: 1rem; }
+.contact .review a { color: var(--spark); }
 
 /* Footer */
 .site-footer { background: #080b0e; color: #7e8b95; font-size: .92rem; padding: 34px 0 110px; }
