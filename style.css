@@ -319,3 +319,12 @@ section { padding: 120px 0; position: relative; }
   .reveal { opacity: 1; transform: none; }
   .ticker-track { transform: none; }
 }
+
+/* Prix indicatifs */
+.price-table { overflow-x: auto; margin: 6px 0 18px; }
+.price-table table { width: 100%; border-collapse: collapse; font-size: 1.02rem; }
+.price-table th, .price-table td { text-align: left; padding: 12px 10px; border-bottom: 1px solid #d6d3cc; vertical-align: top; }
+.price-table thead th { font-family: var(--mono, monospace); font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-2); border-bottom: 2px solid var(--ink); }
+.price-table tbody th { font-weight: 600; color: var(--ink); }
+.price-table td { color: var(--ink); font-weight: 600; white-space: nowrap; }
+@media (max-width: 560px) { .price-table td { white-space: normal; } }
