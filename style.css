@@ -328,3 +328,6 @@ section { padding: 120px 0; position: relative; }
 .price-table tbody th { font-weight: 600; color: var(--ink); }
 .price-table td { color: var(--ink); font-weight: 600; white-space: nowrap; }
 @media (max-width: 560px) { .price-table td { white-space: normal; } }
+
+/* Liens guides pied de page */
+.site-footer .footer-guides { flex-basis: 100%; margin: 0; font-size: .85rem; line-height: 1.7; }
